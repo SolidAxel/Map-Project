@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B98D8CA1E52832C00149083 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B98D8C91E52832C00149083 /* main.cpp */; };
+		4B98D8D21E52849600149083 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B98D8D11E52849600149083 /* Map.cpp */; };
+		4BB2B1C51E6E350E007FAC8B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2B1C41E6E350E007FAC8B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		4B98D8C61E52832C00149083 /* Assignment 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 1"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B98D8C91E52832C00149083 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4B98D8D01E52833E00149083 /* Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		4B98D8D11E52849600149083 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		4BB2B1C41E6E350E007FAC8B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		4B98D8C81E52832C00149083 /* Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
-				4B98D8C91E52832C00149083 /* main.cpp */,
+				4B98D8D01E52833E00149083 /* Map.h */,
+				4B98D8D11E52849600149083 /* Map.cpp */,
+				4BB2B1C41E6E350E007FAC8B /* main.cpp */,
 			);
 			path = "Assignment 1";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B98D8CA1E52832C00149083 /* main.cpp in Sources */,
+				4BB2B1C51E6E350E007FAC8B /* main.cpp in Sources */,
+				4B98D8D21E52849600149083 /* Map.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				4B98D8CF1E52832C00149083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
